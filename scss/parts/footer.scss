@@ -1,0 +1,43 @@
+footer {
+	.container {
+		padding-top: 63px;
+	}
+
+	.footer-navis {
+
+		@media (min-width: 768px) {
+			.col-sm-3 {
+			    width: 20%;
+			}
+		}
+
+		li {
+			margin-bottom: 8px;
+		}
+	}
+
+	.footer2 {
+		margin-top: 27px;
+
+		.footer2-content-block {
+			margin-top: 23px;
+			line-height: 1;
+
+			hr {
+				margin-top: 9px;
+			}
+
+			h2 {
+				font-size: 22px;
+				font-family: 'Lato';
+				text-transform: none;
+			}
+
+			.phone-confirm {
+				display: inline-block;
+				float: none;
+			}
+		}
+	}
+
+}

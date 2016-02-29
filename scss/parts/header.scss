@@ -1,0 +1,87 @@
+.navbar {
+	margin-top:11px; 
+	margin-bottom:10px;
+
+	.navbar-block {
+		padding: 15px 0 20px;
+		@media (max-width:767px) {
+			overflow: hidden;
+		}
+	}
+
+	.navbar-brand {
+		padding: 0 ;
+		margin-left: -5px;
+
+		@media (max-width:767px) {
+			margin-left: 5px;
+		}
+	}
+
+	.colnowsec{
+		padding-top: 5px;
+		margin-right: -5px;
+
+		.getstarted {
+			padding: 6px 14px;	
+			text-align: center;		
+		}
+
+		.callnow {
+			font-size: 16px;
+		}
+
+		@media (max-width:767px) {
+			&{
+				margin-right: 0px;
+				width: 100%;
+			}
+
+			.getstarted, .wrap_getstart {
+				width: 100%;
+			}
+
+			.callnow {
+				width: 100%;
+				margin: 0 0 15px;
+			}
+
+			.telicon {
+			    margin-top: -6px;
+			}
+
+			.telno {
+				margin-right: 5px;
+			}
+
+		}					
+	}
+
+	#navbar {
+		font-weight: bold;
+
+		@media (min-width:768px) {
+			margin-left: -13px;
+			margin-top: 2px;
+
+			.navbar-nav > li > a, .navbar-nav > li > a:hover {
+				padding: 4px 19px;
+			}
+			
+			.navbar-nav > li:first-child > a, .navbar-nav > li:first-child > a:hover {
+			    padding-left: 0;
+			}					
+		}
+	}
+	
+	.search-block{
+		@media (min-width:768px) {
+			margin-right: -21px;
+
+			#input {
+				right: 39px;
+			}
+		}	
+	}
+
+}

@@ -1,0 +1,26 @@
+.container {
+	//padding: 0;
+}
+
+.brdrbtm{
+	border-bottom: 1px solid #f0f0f0; 
+	margin-bottom: 10px;
+}
+
+.title-h1 {
+	font-size:21px; 
+	font-family:'LatoBlack'; 
+	margin-bottom:40px; 
+	color:#000; 
+	margin-top:0;
+
+	&:after {
+		background:#d3d3d3; 
+		width:70px; 
+		position:absolute;
+		top:38px; 
+		height:2px; 
+		content:""; 
+		display:block
+	}
+}

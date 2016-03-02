@@ -24,3 +24,75 @@
 		display:block
 	}
 }
+
+.list-heading-context {
+	box-shadow: none;
+	margin-bottom: 0;
+
+	.list-group-item { 
+
+		border-left: 0;
+		border-bottom: 0;
+		border-top: 0;
+		padding: 0 0 1px 0;
+		font-size: 18px;
+
+		&:first-child {
+			border-top: 0;
+			border-radius: 0;
+		}
+		
+		&:last-child {
+			border-bottom: 0;
+			border-radius: 0;
+
+			a {
+				border-bottom: 0;
+			}
+		}
+
+		a {
+			padding: 7px 0;
+			display: block;
+			color: #000;
+			border-bottom: 1px dashed #919191 ;
+			background: url(../../images/bullet-grey.png) no-repeat 0px;
+			padding-left: 24px;
+			margin-left: 17px;
+
+			&:hover {
+				color: #da6530;
+				background: url(../../images/bullet.png) no-repeat 0px;
+			}
+		}
+
+		&.item-active a{
+				color: #da6530;
+				background: url(../../images/bullet.png) no-repeat 0px;
+				cursor: default;
+		}
+	}
+
+	.item-header { 
+		padding: 0 4px 4px 0;
+		border-bottom: 2px solid #ddd;
+
+		span{
+			width: 100%;
+			display: inline-block;
+			font-size: 24px;
+			background-color: #dc6d3b;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 19px 29px;
+		}
+	}	
+
+	&.list-second {
+		.item-header {
+			padding: 4px 4px 4px 0;
+			border-top: 1px solid #ddd;
+		}
+	}
+
+}

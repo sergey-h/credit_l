@@ -41,3 +41,85 @@ footer {
 	}
 
 }
+
+.strapline-subscribe {
+	background-color: #4c9f3b;
+	position: relative;
+	min-height: 50px;
+
+	.suscribe-bg{
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		background-color: #da6530;
+
+		@media (max-width:767px) { 
+			display: none;
+		}
+	}
+
+	.container {
+		position: relative;
+		font-size: 22px;
+		color: #fff;
+
+		.strapsub-h1 {
+			font-family: 'LatoBlack';
+			font-size: 30px;
+			margin-top: 38px;
+			text-transform: uppercase;
+		}
+
+		.strap-sub-b2 .strapsub-h1 {
+			margin-top: 35px;
+		}
+
+		.strapsub-h2 {
+	    margin-top: 15px;
+	    margin-bottom: 49px;
+		}
+
+		.strap-sub-b2 {
+	    @media (max-width:767px) { 
+				background-color: #da6530;
+				padding-top: 1px;
+				padding-bottom: 1px;
+	    }
+
+			.strapsub-h1 img {
+				margin-top: -1px;
+			}
+		}
+
+		form {
+			margin-top: 13px;
+			width: 96%;
+
+			.form-control {
+				background-color: transparent;
+				border-radius: 0;
+				border-color: #fff;
+				color: #fff;
+				height: 47px;
+				border-right: none;
+			}
+
+			.btn-default {
+				background-color: #444;
+				background-image: none;
+				color: #fff;
+				border-radius: 0;
+				border-color: #444;
+				font-family: 'LatoLight';
+				font-size: 22px;		
+				height: 47px;
+
+				@media (min-width:768px) {
+					padding: 6px 26px;
+				}
+			}
+		}
+	}
+	
+}

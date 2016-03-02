@@ -1,0 +1,27 @@
+.faq-body {
+	margin-top: 45px;
+	margin-bottom: 87px;
+
+	.faq-item {
+		margin-top: 21px;
+
+		.faq-title {
+			position: relative;
+			margin-bottom: 76px;
+		}
+
+		.faq-featured-image {
+			margin-bottom: 22px;
+		}
+
+		.faq-content {
+			font-size: 18px;
+			line-height: 1.7;
+
+			p {
+				margin-bottom: 29px;
+			}
+		}
+	}
+}
+

@@ -110,3 +110,46 @@
 .orangebtn-big {
 	padding: 13px 36px;
 }
+
+.list-style1 {
+	font-size: 18px;
+	font-weight: bold;
+
+	li {
+		padding: 0;
+		border: none;
+		margin-bottom: 5px;
+
+		&:first-child {
+			border-radius: 0; 
+		}
+
+		&:last-child {
+			border-radius: 0; 
+		}		
+
+		a {
+			display: block;
+			padding: 10px 15px;
+			background-color: #edeceb;
+			border-top: 1px solid #f4f4f3;
+			border-bottom: 2px solid #d5d4d3 ;
+			color: #262626;
+
+			&:hover {
+				background-color: #bbb;
+			}
+		}
+	}
+}
+
+.read-more {
+	background: url(../../images/bullet.png) no-repeat 0px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #6a6a6a;
+
+	&:hover{
+		color: #db6935;
+	}
+}

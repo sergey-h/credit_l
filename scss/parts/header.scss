@@ -164,6 +164,25 @@
 		}
 
 	}
+
+	.media-style3 {
+		color: #acacac;
+		font-size: 24px;
+
+		h2 {
+			font-family: 'LatoLight';
+			font-size: 40px;
+			font-weight: normal;
+			color: #4c9f3b;
+			padding-top: 4px;
+			margin-bottom: 18px;
+		}
+
+		.media-left {
+			padding: 25px 100px 68px 6px;
+		}
+	}
+
 }
 
 .navbar-second {
@@ -194,5 +213,27 @@
 			}			
 		}
 
+	}
+}
+
+.banner-style1 {
+	.banner-content {
+		font-size: 22px;
+		padding-top: 82px;
+		font-family: LatoLight;		
+		line-height: 1.23;
+
+		p {
+			margin: 10px 0 10px;
+		}
+
+		h1 {
+			font-size: 28px;
+			font-weight: normal;
+		}
+
+		.learnmore {
+			margin-top: 30px;
+		}
 	}
 }

@@ -48,7 +48,7 @@
 			}
 
 			.telicon {
-			    margin-top: -6px;
+				margin-top: -6px;
 			}
 
 			.telno {
@@ -63,28 +63,27 @@
 
 		@media (min-width:768px) {
 		//	margin-left: -13px;
-			margin-top: 2px;
+		margin-top: 2px;
 
-			.navbar-nav > li > a, .navbar-nav > li > a:hover {
-				padding: 4px 19px;
-			}
-			
-			.navbar-nav > li:first-child > a, .navbar-nav > li:first-child > a:hover {
-			    padding-left: 0;
-			}					
+		.navbar-nav > li > a, .navbar-nav > li > a:hover {
+			padding: 4px 19px;
 		}
-	}
-	
-	.search-block{
-		@media (min-width:768px) {
-			margin-right: -21px;
 
-			#input {
-				right: 39px;
-			}
-		}	
+		.navbar-nav > li:first-child > a, .navbar-nav > li:first-child > a:hover {
+			padding-left: 0;
+		}					
 	}
+}
 
+.search-block{
+	@media (min-width:768px) {
+		margin-right: -21px;
+
+		#input {
+			right: 39px;
+		}
+	}	
+}
 }
 
 .breadcrumbs {
@@ -113,8 +112,8 @@
 
 		@media (min-width: 768px) {
 		//	margin-left: -13px;
-		}
 	}
+}
 }
 
 .page-heading {
@@ -128,8 +127,8 @@
 		position: relative;
 
 		&:after {
-	    top: auto;
-	    bottom: -17px;
+			top: auto;
+			bottom: -17px;
 		}
 	}
 
@@ -149,5 +148,51 @@
 				margin: 0 0 25px;
 			}
 		}
+	}
+
+	.media-style2 {
+		font-family: 'LatoLight';
+		font-size: 20px;	
+		margin-top: -30px;
+		margin-bottom: 30px;
+
+		h1 {
+			font-size: 30px;
+			color: #fff;
+			margin-top: 0;
+			margin-bottom: 7px;
+		}
+
+	}
+}
+
+.navbar-second {
+	background-color: #edeceb;
+
+	.nav-pills {
+		font-family: LatoLight;
+		font-size: 18.5px;
+
+		li{
+
+
+			a {
+				border-radius: 0;
+				color: #666;
+				line-height: 1.9;
+				padding: 10px 38px;
+
+				&:hover {
+					background-color: #da6530;	
+					color: #fff;
+				}
+			}
+
+			&.active a {
+				background-color: #da6530;
+				color: #fff;
+			}			
+		}
+
 	}
 }

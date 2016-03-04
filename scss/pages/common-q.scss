@@ -1,0 +1,158 @@
+.common-questions {
+	.container {
+		margin-top: 58px;
+		margin-bottom: 75px;
+		font-family: LatoLight;
+		font-size: 18px;
+		overflow: hidden;
+		position: relative;
+
+		.cq-info {
+			padding-top: 40px;
+			line-height: 2;
+		}
+
+		.cq-bhour {
+			padding-top: 36px;
+			border-left: 1px solid #d9d9d9;
+			padding-bottom: 36px;
+			margin-bottom: 17px;
+
+			.table>tbody>tr>td {
+				border-top: 0;
+				padding: 1px 0;
+			}
+		}
+
+		h3{
+			font-family: open_sansregular;
+			font-weight: normal;
+			font-size: 26px;
+			margin-bottom: 16px;
+		}
+
+
+		.cq-form {
+			border-right: 1px solid #d9d9d9;
+			font-family: LatoLight;
+			font-size: 18px;
+			line-height: 2;
+			position: relative;
+
+			&:after {
+				content: "or";
+				background-color: #fff;
+				font-family: open_sansitalic;
+				font-size: 14px;
+				color: #aaa;
+				position: absolute;
+				right: 0;
+				top: 50%;
+				margin-right: -9px;
+				text-transform: uppercase;
+			}
+
+			@media (max-width:767px) {
+				border-right: 0;
+				border-bottom: 1px solid #d9d9d9;
+				padding-bottom: 40px;
+
+				&:after { 
+					right: 50%;
+					bottom: 0;
+					top: auto;
+					padding: 0 10px;
+					margin: 0 0 -13px ;
+
+				}
+			}			
+
+			.radio-inline input {
+				margin-top: -4px;
+			}
+
+			input {
+				height: 44px;
+			}
+
+			input, textarea {
+				border-radius: 0;
+				font-family: LatoLight;
+				font-size: 18px;
+			}
+
+			button {
+				padding: 7px 36px;
+			}
+		}
+
+		.cq-fb {
+			font-size: 26px;
+			font-family: open_sansregular;
+			padding-top: 150px;
+	    padding-right: 0;
+	    padding-left: 30px;		
+
+	    @media (max-width:767px) { 
+				padding-top: 50px;
+				padding-right: 15px;
+				padding-left: 15px;
+	    }	
+
+			.fb-btn {
+				display: block;
+				height: 79px;
+				line-height: 79px;
+				background-color: #49639f;
+				color: #fff;
+				font-size: 26px;
+				font-family: open_sansbold;
+				border-radius: 4px;
+				border: 1px solid #345194;
+				box-shadow: 0 0 1px #899ac1;
+				overflow: hidden;
+    		margin-top: 16px;				
+
+				.fa-facebook {
+					float: left;
+					font-size: 60px;
+			    padding-top: 11px;
+			    width: 80px;
+			    padding-bottom: 20px;		
+			    border-right: 1px solid #345194;			
+				}
+			}
+		}
+
+		.get_directions {
+			font-family: open_sansregular;
+			font-size: 26px;
+
+			input {
+				font-size: 18px;
+				font-family: LatoLight;
+				border-radius: 0;
+				border: 1px solid #444444;
+				box-shadow: none;
+				height: 48px; 
+			}
+
+			button {
+				border-radius: 0;
+				height: 48px;
+				border: 0;
+				background: #444444;
+				color: #fff;
+				font-size: 22px;
+				font-family: LatoLight;
+				font-weight: normal;
+				padding: 6px 53px;
+			}
+		}
+
+		.get_directions_map {
+			margin-top: 37px;
+		}
+
+	}
+}

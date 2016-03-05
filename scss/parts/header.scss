@@ -71,7 +71,27 @@
 
 		.navbar-nav > li:first-child > a, .navbar-nav > li:first-child > a:hover {
 			padding-left: 0;
-		}					
+		}			
+
+		.navbar-nav > li.active {
+			position: relative;
+			&:after {
+				content: ' ';
+				position: absolute;
+				background-color: #262626;
+				width: 100%;
+				top: -12px;
+				height: 52px;
+				z-index: 1;
+			}
+
+			a {
+				position: relative;
+				z-index: 5;
+				color: #fff;
+				cursor: default;
+			}
+		}		
 	}
 }
 
@@ -234,6 +254,31 @@
 
 		.learnmore {
 			margin-top: 30px;
+		}
+	}
+}
+
+.credit-report {
+	padding-top: 73px;
+
+	h2 {
+		font-family: 'LatoLight';
+		font-size: 40px;
+		font-weight: normal;
+		color: #4c9f3b;
+	}
+
+	.title-h1 {
+		font-size: 20px;
+		margin-bottom: 65px;
+	}
+
+	.media-style1 {
+		margin-top: 53px;
+		margin-bottom: 63px;
+
+		.media-left {
+			padding: 0 44px 0 0;
 		}
 	}
 }

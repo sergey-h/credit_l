@@ -77,7 +77,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">SERVICES</a></li>
+                <li><a href="#">SERVICES</a></li>
                 <li><a href="./">MILITARY DISCOUNTS</a></li>
                 <li><a href="./">CREDIT EDUCATION</a></li>
               </ul>

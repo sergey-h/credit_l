@@ -73,22 +73,6 @@
 				}
 			}
 		}
-
-		.cr-href1 {
-			display:inline-block; 
-			color:#da6530; 
-			font-weight: bold; 
-			background-color:#ebebeb;
-			padding: 0 10px;
-			margin: 3px 0;
-		}
-
-		hr.hr1 {
-			border:none;
-			padding: 0;
-			margin: 0;
-			border-top: 1px dashed #898989;
-		}
 	}
 
 	.cr-content-item-style1 {
@@ -116,5 +100,20 @@
 		}
 	}
 
+	.cr-item-body {
+		line-height: 1.667;
+		font-size: 18px;	
+			
+		.cri-style1{
+			line-height: 1.667;
+			font-size: 18px;
+		}
+
+		.cri-style2 {
+			font-size: 16px;
+			line-height: 1.25;
+		}
+
+	}
 	
 }

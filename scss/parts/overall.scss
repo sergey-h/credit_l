@@ -20,6 +20,8 @@
 		width:70px; 
 		position:absolute;
 		top:38px; 
+		top: auto;
+		bottom: -17px;
 		height:2px; 
 		content:""; 
 		display:block
@@ -68,9 +70,9 @@
 		}
 
 		&.item-active a{
-				color: #da6530;
-				background: url(../../images/bullet.png) no-repeat 0px;
-				cursor: default;
+			color: #da6530;
+			background: url(../../images/bullet.png) no-repeat 0px;
+			cursor: default;
 		}
 	}
 
@@ -102,10 +104,10 @@
 	color: #fff;
 	font-size: 20px;
 	font-family: 'LatoLight';
-  padding: 5px 14px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);	
-  border: none;
-  border-top: 1px solid #e9a383 !important;
+	padding: 5px 14px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);	
+	border: none;
+	border-top: 1px solid #e9a383 !important;
 }
 
 .orangebtn-big {
@@ -143,17 +145,17 @@
 				background-color: #bbb;
 			}
 
-    	&[aria-expanded=true] {
-    		background-image: url(../../images/minus.png);
-    		background-position: 95% 50%;
-    		background-repeat: no-repeat;
-    	}			
+			&[aria-expanded=true] {
+				background-image: url(../../images/minus.png);
+				background-position: 95% 50%;
+				background-repeat: no-repeat;
+			}			
 
-    	&[aria-expanded=false] {
-    		background-image: url(../../images/plus.png);
-    		background-position: 95% 50%;
-    		background-repeat: no-repeat;
-    	}			    	
+			&[aria-expanded=false] {
+				background-image: url(../../images/plus.png);
+				background-position: 95% 50%;
+				background-repeat: no-repeat;
+			}			    	
 		}
 	}
 }
@@ -179,31 +181,47 @@
 	}
 
 	li {
-    font-size: 16px;
-    font-family: 'LatoLight';
-    border-bottom: 1px dashed #919191;
-    float: left;
-    width: 200px;
-    background: url(../../images/bullet.png) no-repeat 0px;
-    padding: 8px 20px 9px;	
-    width: 100%;
+		font-size: 16px;
+		font-family: 'LatoLight';
+		border-bottom: 1px dashed #919191;
+		float: left;
+		width: 200px;
+		background: url(../../images/bullet.png) no-repeat 0px;
+		padding: 8px 20px 9px;	
+		width: 100%;
 
-    a {
-    	color: #6a6a6a;
+		a {
+			color: #6a6a6a;
 
-    	&:hover {
-    		color: #da6530;
-    	}
-    }
+			&:hover {
+				color: #da6530;
+			}
+		}
 
-    &:first-child {
+		&:first-child {
 			padding-top: 19px;
 			background-position: 0 24px;
-    }
+		}
 
-    &:last-child {
-    	border-bottom: none;
-    }
+		&:last-child {
+			border-bottom: none;
+		}
 	}
 }
 
+
+.cr-href1 {
+	display:inline-block; 
+	color:#da6530; 
+	font-weight: bold; 
+	background-color:#ebebeb;
+	padding: 0 10px;
+	margin: 3px 0;
+}
+
+hr.hr1 {
+	border:none;
+	padding: 0;
+	margin: 0;
+	border-top: 1px dashed #898989;
+}

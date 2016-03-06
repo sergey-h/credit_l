@@ -1,0 +1,42 @@
+.testimonal-body {
+	padding-top: 74px;
+	padding-bottom: 20px;
+
+	.testimonal-item {
+		border: 1px solid #edeceb;
+		color: #666666;
+		font-family: LatoLight;
+		line-height: 1.5;
+		font-size: 16px;
+		position: relative;
+		padding: 55px 36px 40px;
+		margin-bottom: 55px;
+
+		&:before {
+			top: -26px;
+			left: 36px;
+			content: " ";
+			position: absolute;
+			width: 54px;
+			height: 46px;
+			background:transparent url('../../images/testimonal-quote.png') 0 0  no-repeat;
+		}
+
+		.media {
+			margin-top: 30px;
+		}
+
+		.media-body {
+			line-height: 18px;
+			font-size: 14px;
+			font-family: LatoLight;		
+			padding: 7px 0px 0px 6px;	
+
+			.testimonal-author {
+				font-family: Lato;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
